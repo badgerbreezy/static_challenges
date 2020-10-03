@@ -1,0 +1,69 @@
+body {
+  font-family:arial;
+}
+
+h1,h2 {
+  display: inline;
+
+}
+
+h1 {
+  text-align:left;font-size:200%;
+}
+h2 {
+  float:right;background-color:green;color:white;padding:20px;
+}
+
+.dam {
+  position: relative;
+  text-align: center;
+  color: white;
+  width:100%; /*container-width*/
+  overflow:hidden; /*hide bounds of image */
+  margin:0;
+}
+
+.dam img {
+   display:block; /*remove inline-block spaces*/
+   width:100%; /*make image streatch*/
+   margin:-10% 0;
+}
+/* Bottom left text */
+.dam-top-left {
+  font-size: 300%;
+  font-weight: bold;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.copy {
+  background-color:black;color:white;padding:20px;
+}
+
+.imgex {
+  background-color:azure;color:black;padding:150px;
+}
+.imgex-column {
+  position: relative;
+  top: 20%;
+  transform: translateY(-50%);
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+.imgex-label {
+  position: relative;
+  top: 20%;
+  transform: translateY(-400%);
+  float: left;
+  width: 30%;
+  padding: 5px;
+
+  font-weight:bold;
+}
+
+.footer {
+  float:left;background-color:black;color:white;padding:20px;
+}
